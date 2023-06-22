@@ -1,5 +1,5 @@
 module.exports = {
-    "fileMatch": [
+    fileMatch: [
         "\\.gradle(\\.kts)?$",
         "(^|/)gradle\\.properties$",
         "(^|/)gradle/.+\\.toml$",
@@ -8,6 +8,7 @@ module.exports = {
         "(^|/)versions.props$",
         "(^|/)versions.lock$"
     ],
-    "timeout": 600,
-    "versioning": "gradle"
+    timeout: 600,
+    versioning: "gradle",
+    repositories: ["RedefinedO/multi-module"]
 };
